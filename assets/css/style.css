@@ -19,6 +19,10 @@
 
 header{
     position: relative;
+    background-image: url(/assets/img/castelo.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 header h1{
@@ -69,13 +73,6 @@ footer  address:last-child{
 
 html, body{
     height: 100%;
-}
-
-header{
-    background-image: url(topCasaFinaArquitetura/assets/img/castelo.jpg);
-    height: 100%;
-    background-size: cover;
-    background-position: center;
 }
 
 @media only screen and (min-width: 650px ) {
